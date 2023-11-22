@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+<title> Test website idk </title>
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+<nav>
+    <a href="rockets.html">Rockets</a> 
+    <a href="https://www.nasa.gov/" target="_blank">Nasa's official website</a>
+</nav>
+<h1>Nasa Fanpage</h1>
+<p>Nasa is a very formidable organization.</p>
+<div id="container">
+    <div class="card" onclick="goToPage('Cards/card1.html')">
+        <img src="Assets-Photos/nasa1.jpg" alt="filler Img"></img>
+        <h2>Nasa's logo</h2>
+        <p>description</p>
+    </div>
+    <div class="card" onclick="goToPage('Cards/card2.html')">
+        <img src="Assets-Photos/nasa1.jpg" alt="filler Img"></img>
+        <h2>title</h2>
+        <p>description</p>
+    </div>
+    <div class="card" onclick="goToPage('Cards/card3.html')">
+        <img src="Assets-Photos/nasa1.jpg" alt="filler Img"></img>
+        <h2>title</h2>
+        <p>description</p>
+    </div>
+
+</div>
+<div id="buttonDemo">
+    <button id="button1"> Color Change Button </button>
+    <button id="button2"> Text Font </button>
+    <button id="button3"> Animation Button </button>
+    <button id="button4"> A Random Number </button>
+    <button id="button5"> Math </button>
+        <div id="output">
+            Click a button to see what happens
+        </div>
+          <div class="contact">
+            <h3>Contact</h3>
+            <form id="contactForm" action="./formAnswer.html" target="_blank" method="POST">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" id="submitButton" onclick="alert('Thank you four your participatioon')">Submit</button>
+            </form>
+        </div>
+</div>
+</div>
+   <footer>
+      <div class="footer">
+        <div class="footerNav">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.nasa.gov">
+                        Nasa's Official Website
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="contact">
+            <h3>Contact</h3>
+            <form id="contactForm" action="./formAnswer.html" target="_blank" method="POST">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" id="submitButton" onclick="alert('Thank you four your participatioon')">Submit</button>
+            </form>
+        </div> -->
+        <p>2023 Derrick's Website. All Rights Reserved.</p>
+      </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

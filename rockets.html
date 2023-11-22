@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Nasa's Rockets 'n stuff</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="https://www.nasa.gov/" target="_blank"
+        >Nasa's official website</a
+      >
+    </nav>
+    <h1>Rockets</h1>
+    <p>This page is about rockets that Nasa has used.</p>
+    <div class="loader"></div>
+    <div id="elements"></div>
+    <img id="rocketGoBoom" />
+    <footer>
+      <div class="footer">
+        <p>2023 Derrick's Website. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script>
+      const element = document.getElementById("elements");
+      let list1 = ["just", "kinda", "random", "words"];
+
+      for (let i of list1) {
+        let p = document.createElement("p");
+        p.innerHTML = i;
+        element.appendChild(p);
+      }
+    </script>
+  </body>
+</html>
